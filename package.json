@@ -1,6 +1,6 @@
 {
   "name": "sails-auto",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "auto generate models for sails ",
   "main": "index.js",
   "preferGlobal": "true",
