@@ -34,7 +34,7 @@ var ModelCreator = (function () {
             _this.handle(res);
         });
 
-        this.template = '\n/**\n *\n * generated Model for ' + (arg.model || arg.m) + '\n *\n **/\n\n module.exports = {\n    ' + (arg.connection || arg.c ? '    connection: \'' + arg.connection || arg.c + '\',' : '') + '\n    ' + (arg.tableName || arg.t ? '    tableName: \'' + arg.tableName || arg.t + '\',' : '') + '\n\n';
+        this.template = '\n/**\n *\n * generated Model for ' + (arg.model || arg.m) + '\n *\n **/\n\n module.exports = {\n    ' + (arg.connection || arg.c ? '    connection: \'' + (arg.connection || arg.c) + '\',' : '') + '\n    ' + (arg.tableName || arg.t ? '    tableName: \'' + (arg.tableName || arg.t) + '\',' : '') + '\n\n';
         if (arg.createdAt) {
             this.template += '    autoCreatedAt: false,\n';
         }

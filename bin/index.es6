@@ -32,8 +32,8 @@ class ModelCreator {
  **/
 
  module.exports = {
-    ${arg.connection || arg.c ? '    connection: \'' + arg.connection || arg.c + '\',' : ''}
-    ${arg.tableName || arg.t ? '    tableName: \'' + arg.tableName || arg.t + '\',' : ''}
+    ${arg.connection || arg.c ? '    connection: \'' + (arg.connection || arg.c) + '\',' : ''}
+    ${arg.tableName || arg.t ? '    tableName: \'' + (arg.tableName || arg.t) + '\',' : ''}
 
 `;
         if (arg.createdAt) {
