@@ -27,6 +27,12 @@ Options:
     --updatedAt          if provided, will create an alternative name for the updatedAt column
     --out || -o          if provided, will create the file specified here. Provide full path!
     --ext || -e          defaults To '.js', may be changed to whatever extension you prefer
+ 
+    
+## Dependencies
+    
+[minimist](https://github.com/substack/minimist)
+[mysql](https://github.com/felixge/node-mysql/)
     
 ## License 
 
