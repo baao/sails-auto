@@ -1,5 +1,5 @@
 # sails-auto
-Generates models for your existing database table
+Generates models for your existing database mysql table
 
 ### Installation
 
