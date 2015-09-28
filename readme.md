@@ -31,7 +31,7 @@ Options:
     
 ## Dependencies
     
-[minimist](https://github.com/substack/minimist)
+[minimist](https://github.com/substack/minimist),
 [mysql](https://github.com/felixge/node-mysql/)
     
 ## License 
