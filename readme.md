@@ -28,7 +28,10 @@ Options:
     --out || -o          if provided, will create the file specified here. Provide full path!
     --ext || -e          defaults To '.js', may be changed to whatever extension you prefer
  
-    
+## TODO 
+
+Auto generate associations
+
 ## Dependencies
     
 [minimist](https://github.com/substack/minimist),
