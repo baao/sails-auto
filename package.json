@@ -1,0 +1,28 @@
+{
+  "name": "sails-auto",
+  "version": "0.0.1",
+  "description": "auto generate models for sails ",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "bin": {
+    "sails-auto": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baao/sails-auto.git"
+  },
+  "keywords": [
+    "model",
+    "autogenerate",
+    "sailsjs"
+  ],
+  "author": "Michael",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "mysql": "^2.9.0"
+  }
+}
